@@ -1,13 +1,13 @@
 # Clustering
 
-Part A (K-Means Clustering)
-Task: In this part, you will be utilizing K-means clustering algorithm to identify the appropriate number of clusters. You may use any language and libraries to implement K-mean clustering algorithm. Your K-mean clustering algorithm should look for appropriate values of K at least in the range of 0 to 15 and show their corresponding sum-of-squared errors (SSE).**
-Step 1 (Import Libraries and Load Data): Imported necessary libraries, suppresses warnings, and loads the dataset "Mall_Customers.csv" into a Pandas Data Frame.
-Step 2 (Genre Calculation and Pie Chart): I’ve calculate the distribution of 'Genre' in the dataset and create a pie chart to visualize the distribution. The pie chart displays the percentage of male and female customers in the dataset.
-Step 3 (Distribution Plots): In this step I’ve created distribution plots (histograms) for 'Age,' 'Annual Income (k$),' and 'Spending Score (1-100).' It visualizes the distribution of these features in the dataset.
-Step 4 (K-Means Clustering): In this step, I’ve performed K-means clustering on the features 'Age,' 'Annual Income (k$),' and 'Spending Score (1-100).' According to the question, I’ve calculated the values of K at least in the range of 1 to 15 and calculated the sum-of-squared errors (SSE) for each K. I’ve created an elbow plot to visualize the SSE values against different K values.
-Step 5 (K-Means Clustering with Optimal K): Based on the elbow plot, the optimal K value is 5 in this case. Then I performed K-means clustering with K=5, and assigned cluster labels to data points, and add the 'label' column to the Data Frame.
-Step 6 (3D Scatter Plot): In the last step I’ve created a 3D scatter plot using Plotly Express to visualize the data points in three dimensions ('Annual Income (k$),' 'Spending Score (1-100),' and 'Age').
+## Part A (K-Means Clustering)
+### Task: In this part, you will be utilizing K-means clustering algorithm to identify the appropriate number of clusters. You may use any language and libraries to implement K-mean clustering algorithm. Your K-mean clustering algorithm should look for appropriate values of K at least in the range of 0 to 15 and show their corresponding sum-of-squared errors (SSE).**
+### Step 1 (Import Libraries and Load Data): Imported necessary libraries, suppresses warnings, and loads the dataset "Mall_Customers.csv" into a Pandas Data Frame.
+### Step 2 (Genre Calculation and Pie Chart): I’ve calculate the distribution of 'Genre' in the dataset and create a pie chart to visualize the distribution. The pie chart displays the percentage of male and female customers in the dataset.
+### Step 3 (Distribution Plots): In this step I’ve created distribution plots (histograms) for 'Age,' 'Annual Income (k$),' and 'Spending Score (1-100).' It visualizes the distribution of these features in the dataset.
+### Step 4 (K-Means Clustering): In this step, I’ve performed K-means clustering on the features 'Age,' 'Annual Income (k$),' and 'Spending Score (1-100).' According to the question, I’ve calculated the values of K at least in the range of 1 to 15 and calculated the sum-of-squared errors (SSE) for each K. I’ve created an elbow plot to visualize the SSE values against different K values.
+### Step 5 (K-Means Clustering with Optimal K): Based on the elbow plot, the optimal K value is 5 in this case. Then I performed K-means clustering with K=5, and assigned cluster labels to data points, and add the 'label' column to the Data Frame.
+### Step 6 (3D Scatter Plot): In the last step I’ve created a 3D scatter plot using Plotly Express to visualize the data points in three dimensions ('Annual Income (k$),' 'Spending Score (1-100),' and 'Age').
 
 Part B: Hierarchical Cluster
 Task: In this part, you will apply hierarchical clustering algorithm (agglomerative or divisive) to the provided mall dataset.
