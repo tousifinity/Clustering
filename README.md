@@ -30,7 +30,9 @@ Step 2 (Agglomerative Clustering and Scatter Plot Clusters): In the final step I
 In this part first of all I’ve imported the necessary libraries and preprocesses the data. I’ve selected the features ('Age,' 'Annual Income (k$),' and 'Spending Score (1-100)') for clustering and standardize them using the StandardScaler to ensure all features have similar scales. 
 
 Then I’ve initialized the DBSCAN model with hyperparameters such as 'eps' (maximum distance between two samples to be considered in the same neighborhood) and 'min_samples' (the minimum number of samples in a neighborhood for a data point to be considered as a core point). 
+
 Then I fit the DBSCAN model to the preprocessed data. The algorithm assigns cluster labels to data points and identifies noise points as -1.
+
 And lastly, I’ve created a scatter plot to visualize the results of the DBSCAN clustering. It allows you to observe the clusters and the noise points in the data.
  
 
